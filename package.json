@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "./bin/run.js",
-    "test": "echo \"Tests runned\""
+    "test": "mocha src/**/*.spec.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1"
   }
 }
